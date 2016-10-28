@@ -25,21 +25,35 @@ run chmod +x /vlm* at end but do it at first after wget the files you need !!!
 
 Windows System
 PS C:\WINDOWS\system32> slmgr.vbs -upk
+
 PS C:\WINDOWS\system32> slmgr.vbs -ipk  the key from https://technet.microsoft.com/en-us/library/ff793409.aspx
+
 PS C:\WINDOWS\system32> slmgr.vbs -skms ss.jixu.me
+
 PS C:\WINDOWS\system32> slmgr.vbs -ato
+
 PS C:\WINDOWS\system32> slmgr.vbs -dlv
 
 
 
 Windows Office：
+
 CD "%SystemRoot%\SYSTEM32"
+
 CSCRIPT /NOLOGO SLMGR.VBS /SKMS ss.jixu.me
+
 CSCRIPT /NOLOGO SLMGR.VBS /ATO
+
 CSCRIPT /NOLOGO SLMGR.VBS /XPR
+
 Office/Project/Visio 2013(2010 change the location) ：
+
 32bit：CD "%ProgramFiles(x86)%\MICROSOFT OFFICE\OFFICE15"
+
 64bit：CD "%ProgramFiles%\MICROSOFT OFFICE\OFFICE15"
+
 CSCRIPT OSPP.VBS /SETHST:192.168.0.xxx
+
 CSCRIPT OSPP.VBS /ACT
+
 CSCRIPT OSPP.VBS /DSTATUS

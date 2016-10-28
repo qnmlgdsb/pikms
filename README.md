@@ -1,5 +1,5 @@
 # pikms
-arm kms go go gp
+arm kms go go go
 
 pi3 choose 
 just run vlmcsd-armv7el-uclibc-static in command line

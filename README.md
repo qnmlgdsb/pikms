@@ -52,7 +52,7 @@ Office/Project/Visio 2013(2010 change the location) ：
 
 64bit：CD "%ProgramFiles%\MICROSOFT OFFICE\OFFICE15"
 
-CSCRIPT OSPP.VBS /SETHST:192.168.0.xxx
+CSCRIPT OSPP.VBS /SETHST:ss.jixu.me
 
 CSCRIPT OSPP.VBS /ACT
 

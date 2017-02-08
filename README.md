@@ -1,8 +1,8 @@
 # pikms
 arm kms go go go
 
-pi3 choose 
-just run vlmcsd-armv7el-uclibc-static in command line
+pi3 just choose 
+and run vlmcsd-armv7el-uclibc-static in command line
 
 pi B 
 can run both vlmcsd-armv4el-uclibc-static or vlmcsd-armv5el-musl-thumb-static
@@ -22,6 +22,9 @@ Then Save it will ok
 
 
 run chmod +x /vlm* at end but do it at first after wget the files you need !!!
+
+Other Linux use command lscpu check the deatail of the CPU the choose the right file
+
 
 Windows System
 PS C:\WINDOWS\system32> slmgr.vbs -upk

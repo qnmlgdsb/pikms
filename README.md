@@ -71,7 +71,3 @@ cscript "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /dstatus
 x86 installed in Win x64:
 cscript "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /dstatus
 
-
-CSCRIPT OSPP.VBS /ACT
-
-CSCRIPT OSPP.VBS /DSTATUS

@@ -41,21 +41,36 @@ PS C:\WINDOWS\system32> slmgr.vbs -dlv
 
 Windows Office：
 
-CD "%SystemRoot%\SYSTEM32"
+1. Set KMS Host...
+x64:
+cscript "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /sethst:youraddress
 
-CSCRIPT /NOLOGO SLMGR.VBS /SKMS ss.jixu.me
+x86 installed in Win x64:
+cscript "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /sethst:youraddress
 
-CSCRIPT /NOLOGO SLMGR.VBS /ATO
 
-CSCRIPT /NOLOGO SLMGR.VBS /XPR
+2. Request Activation
+x64:
+cscript "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /act
 
-Office/Project/Visio 2013(2010 change the location) ：
+x86 installed in Win x64:
+cscript "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /act
 
-32bit：CD "%ProgramFiles(x86)%\MICROSOFT OFFICE\OFFICE15"
 
-64bit：CD "%ProgramFiles%\MICROSOFT OFFICE\OFFICE15"
+3. Clear KMS Host
+x64:
+cscript "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /remhst
 
-CSCRIPT OSPP.VBS /SETHST:ss.jixu.me
+x86 installed in Win x64:
+cscript "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /remhst
+
+4. Check Activation Status
+x64:
+cscript "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /dstatus
+
+x86 installed in Win x64:
+cscript "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /dstatus
+
 
 CSCRIPT OSPP.VBS /ACT
 

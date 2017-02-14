@@ -42,32 +42,44 @@ PS C:\WINDOWS\system32> slmgr.vbs -dlv
 Windows Office：
 
 1.Set KMS Host...
+
 x64:
+
 cscript "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /sethst:youraddress
 
 x86 installed in Win x64:
+
 cscript "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /sethst:youraddress
 
 
 2.Request Activation
+
 x64:
+
 cscript "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /act
 
 x86 installed in Win x64:
+
 cscript "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /act
 
 
 3.Clear KMS Host
+
 x64:
+
 cscript "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /remhst
 
 x86 installed in Win x64:
+
 cscript "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /remhst
 
 4.Check Activation Status
+
 x64:
+
 cscript "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /dstatus
 
 x86 installed in Win x64:
+
 cscript "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /dstatus
 

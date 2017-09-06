@@ -30,6 +30,7 @@ Windows System
 PS C:\WINDOWS\system32> slmgr.vbs -upk
 
 PS C:\WINDOWS\system32> slmgr.vbs -ipk  the key from https://technet.microsoft.com/en-us/library/ff793409.aspx
+or https://technet.microsoft.com/zh-cn/library/jj612867
 
 PS C:\WINDOWS\system32> slmgr.vbs -skms ss.jixu.me
 

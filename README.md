@@ -28,7 +28,6 @@ https://github.com/Wind4/vlmcsd
 ```javascript
 chmod +x vlm*
 /root/vlmcsd-armv6hf-Raspberry-glibc
-  }
 ```
 
 ##然后随意将代码放入开机启动项rc.local或者哪里定时

@@ -1,4 +1,3 @@
-![mahua](mahua-logo.jpg)
 ##pikms是什么?
 一个树莓派变成KMS的东东，找到大佬编好的程序，运行制定版本
 

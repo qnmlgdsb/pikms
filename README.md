@@ -1,12 +1,20 @@
 # pikms
 arm kms go go go
+
+
+
 pi a-z
+
 all can just one file to make it working
+
 vlmcsd-armv6hf-Raspberry-glibc
 
 just run the command as
+
 chmod +x vlm*
+
 then
+
 ./vlmcsd-armv6hf-Raspberry-glibc
 
 make sure has the ./ include otherwise will show
